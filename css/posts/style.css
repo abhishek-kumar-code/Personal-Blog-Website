@@ -1,0 +1,44 @@
+@import "main/header_posts.css";
+@import "main/body_posts.css";
+@import "main/footer_posts.css";
+
+/* Grid Wrapper */
+
+/* Mobile Screens */
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px minmax(300px, auto) minmax(300px, auto) minmax(300px, auto) minmax(100px,auto);
+    /* Minimum height of 200px and maximum height is auto */
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas: 
+    "hd hd hd hd"
+    "sd1 sd1 sd1 sd1"
+    "bl bl bl bl"
+    "bl bl bl bl"
+    "sd2 sd2 sd2 sd2"
+    "ft ft ft ft";
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Desktop Screen */
+@media screen and (min-width: 760px){
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px minmax(300px, auto) minmax(300px, auto) minmax(300px, auto) 100px;
+    /* Minimum height of 200px and maximum height is auto */
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas: 
+    "hd hd hd hd"
+    "bl bl bl sd1"
+    "bl bl bl sd2"
+    "bl bl bl sd2"
+    "ft ft ft ft";
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    }   
+}

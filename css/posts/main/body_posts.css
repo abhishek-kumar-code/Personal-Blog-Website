@@ -1,0 +1,57 @@
+
+body{
+    color: #fff;
+    font-family: Cambria;
+}
+
+.container div {
+    background: #3bbced;
+    padding: 30px; 
+}
+
+.container div:nth-child(even){
+    background: #777;
+}
+
+div .home{
+    
+    text-align: right;
+}
+
+.blog{
+    grid-area: bl;  
+    font-size: 1.2em;
+}
+
+.aboutme{
+    grid-area: sd1;
+
+}
+
+.photo{
+    max-width: 100%;
+    padding-left: 5%;
+}
+
+figcaption {
+    font-size: small;
+    font-family: 'Helvetica Neue';
+    text-align: center;
+}
+
+.nested{
+    grid-area: sd2;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: hotpink;
+}
+
+
