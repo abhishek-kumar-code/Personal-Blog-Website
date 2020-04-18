@@ -9,3 +9,5 @@ CSS Flexbox has become extremely popular amongst front-end developers the last c
 However, there’s a new kid in town called CSS Grid, and it’s got a lot of the same capabilities as Flexbox. In come cases it’s better than Flexbox, while in other cases it’s not.
 
 This seems to be a source of confusion for developers. So in this article compare the two modules, both a micro and macro level.
+
+![](images/picture1.jpg)
