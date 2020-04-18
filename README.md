@@ -10,4 +10,4 @@ However, there’s a new kid in town called CSS Grid, and it’s got a lot of th
 
 This seems to be a source of confusion for developers. So in this article compare the two modules, both a micro and macro level.
 
-![](images/picture1.jpg)
+![](images/blogtitle.jpg)
