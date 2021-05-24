@@ -9,7 +9,6 @@ The goal of this project is to build responsive website using powerful Flexbox a
 Flexbox is essentially for laying out items in a single dimension – in a row OR a column. Grid is for layout of items in two dimensions – rows AND columns
  
 ![](images/blogtitle.JPG)
-![screenshot](images/blogtitle.JPG)
 
 ### Which is better - Flexbox or Grid?
 CSS Flexbox has become extremely popular amongst front-end developers in the last couple of years. This isn’t surprising, as it has made it a lot easier for us to create dynamic layouts and align content within containers.
